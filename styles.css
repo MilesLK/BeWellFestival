@@ -85,3 +85,61 @@ body {
     }
 }
 
+/* Page d'accueil */
+#Accueil {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+
+/* Presentation */
+
+#Presentation {
+    border: 1px solid red;
+    width: 70%;
+    text-align: center;
+}
+
+/* Nos services */
+
+#Nos_services {
+    border: 1px solid blue;
+    padding: 30px;
+}
+
+#Nos_services img {
+    height: 125px;
+    width: 240px;
+    border-radius: 5%;
+}
+
+.Service_card {
+    background-color: #ffffffba;
+    width: 240px;
+    border-radius: 5%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 5px 5px 10px ;
+}
+
+.Service_card:hover {
+    background-color: #90a484;
+    box-shadow: 5px 5px 10px white;
+}
+
+.Head_card {
+    border: 1px solid red;
+}
+
+.Body_card {
+    border: 1px solid blue;
+}
+.Body_card button {
+    width: 100px;
+}
+
+
