@@ -149,3 +149,45 @@ h1 {
 button:hover {
     background: rgb(0, 0, 0, 0.8);
 } */
+
+/* Témoignage */
+#head_temoignage {
+    margin: 20px;
+    text-align: center;
+}
+
+#body_temoignage  {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image_one_three {
+    height: 400px;
+}
+
+.image_two {
+    height: 500px;
+}
+
+.card_temoignage {
+    display: flex;
+    flex-direction: column;
+}
+
+#button_temoignage {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+#button_temoignage button {
+    font-size: 20px;
+    padding: 10px;
+}
+
+#button_temoignage button:hover {
+    background-color: green;
+    color: white;
+}
+
