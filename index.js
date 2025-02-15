@@ -20,3 +20,25 @@ window.addEventListener("scroll", function () {
     lastScrollTop = scrollTop
 })
 
+// Slider de la page d'accueil //
+let currentIndex= 0;
+const slides = document.querySelectorAll(".slide");
+const totalSlides = slides.length;
+const slider = document.querySelector(".slider");
+
+function updateSlide () {
+    slider.style.transform = `translateX(-${currentIndex * 100}%)`;
+}
+
+function nextSlide() {
+    currentIndex = (currentIndex + 1) % totalSlides; // Boucle infinie
+    updateSlide();    
+}
+
+function prevSlide() {
+    currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+    updateSlide();    
+}
+
+// Défilement automatique toutes les 3 secondes
+setInterval(nextSlide, 3000);
