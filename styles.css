@@ -99,9 +99,14 @@ body {
 }
 
 /* Statistique */
+#statistique {
+    margin: 100px;
+}
+
 h1 {
     color: black;
     text-align: center;
+    margin: 30px;
 }
 
 /* Statistique slider */
@@ -127,7 +132,7 @@ h1 {
     justify-content: center;
     flex-direction: column;
     font-size: 24px;
-    background: #3498db;
+    background: #90a484;
     color: white;
     text-align: center;
 }
@@ -154,6 +159,10 @@ button:hover {
 } */
 
 /* Témoignage */
+#temoignage{
+    margin: 100px;
+}
+
 #head_temoignage {
     margin: 20px;
     text-align: center;
@@ -211,7 +220,6 @@ button:hover {
 
 
 /* Footer */
-
 footer {
     background: #222;
     color: white;
@@ -278,8 +286,3 @@ footer {
     border-top: 1px solid gray;
     padding-top: 10px;
 }
-
-
-
-
-
